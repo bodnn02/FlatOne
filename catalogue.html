@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <!-- <link rel="stylesheet" href="css/jquery-ui.min.css"> -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a class="logo" href=""></a>
+            <a class="header-contact" href="tel:+70000000000">+7 000 000 00 00</a>
+            <nav class="header-nav">
+                <a class="header-nav__item" href="">Каталог</a>
+                <a class="header-nav__item" href="">Статьи</a>
+                <a class="header-nav__item" href="">Команда</a>
+                <a class="header-nav__item" href="">
+                    <span>Сохранено</span>
+                    <div class="header-nav__counter">
+                        <span>1</span>
+                    </div>
+                </a>
+            </nav>
+            <button class="mm-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+        <div class="m-menu">
+            <div class="container">
+                <button class="m-menu__close"></button>
+                <nav class="header-nav">
+                    <a class="header-nav__item" href="">Каталог</a>
+                    <a class="header-nav__item" href="">Статьи</a>
+                    <a class="header-nav__item" href="">Команда</a>
+                    <a class="header-nav__item" href="">
+                        <span>Сохранено</span>
+                        <div class="header-nav__counter">
+                            <span>1</span>
+                        </div>
+                    </a>
+                </nav>
+                <form class="search">
+                    <input class="search__input" placeholder="Золотой угол" type="text">
+                    <button class="search__btn"></button>
+                </form>
+                <p class="m-menu__text">Яркие ночные огни, технологическое совершенство и домашний комфорт, создают то, за что мы любим это место. Ощути комфорт делового центра с Flat one.</p>
+                <div class="separator"></div>
+                <a class="header-contact" href="tel:+70000000000">+7 000 000 00 00</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="catalogue">
+            <div class="container">
+                <aside class="catalogue-sidebar">
+                    <button class="catalogue-sidebar__m-close"></button>
+                    <form class="search">
+                        <input class="search__input" placeholder="Поиск" type="text">
+                        <button class="search__btn"></button>
+                    </form>
+                    <div class="catalogue-sidebar__map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1587.6732705327015!2d37.61162510615549!3d55.753133013427124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1682358266572!5m2!1sru!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="filter-section opened">
+                        <div class="filter-section__header">
+                            <div class="filter-section__title">Москва сити</div>
+                            <div class="filter-section__icon"></div>
+                        </div>
+                        <div class="filter-section__content">
+                            <ul class="filter-list single">
+                                <li class="filter-list__item selected">Все башни</li>
+                                <li class="filter-list__item">Нева</li>
+                                <li class="filter-list__item">Меркурий</li>
+                                <li class="filter-list__item">Меркурий</li>
+                                <li class="filter-list__item">Меркурий</li>
+                                <li class="filter-list__item">Меркурий</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="filter-section opened">
+                        <div class="filter-section__header">
+                            <div class="filter-section__title">Москва сити</div>
+                            <div class="filter-section__icon"></div>
+                        </div>
+                        <div class="filter-section__content">
+                            <ul class="filter-list selected">
+                                <li class="filter-list__item selected">Все башни</li>
+                                <li class="filter-list__item">Нева</li>
+                                <li class="filter-list__item">Меркурий</li>
+                                <li class="filter-list__item">Меркурий</li>
+                                <li class="filter-list__item">Меркурий</li>
+                                <li class="filter-list__item">Меркурий</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="filter-section opened">
+                        <div class="filter-section__header">
+                            <div class="filter-section__title">Москва сити</div>
+                            <div class="filter-section__icon"></div>
+                        </div>
+                        <div class="filter-section__content">
+                            <ul class="filter-list selected">
+                                <li class="filter-list__item selected">Все башни</li>
+                                <li class="filter-list__item">Нева</li>
+                                <li class="filter-list__item">Меркурий</li>
+                                <li class="filter-list__item">Меркурий</li>
+                                <li class="filter-list__item">Меркурий</li>
+                                <li class="filter-list__item">Меркурий</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="filter-section opened">
+                        <div class="filter-section__header">
+                            <div class="filter-section__title">Москва сити</div>
+                            <div class="filter-section__icon"></div>
+                        </div>
+                        <div class="filter-section__content">
+                            <div class="price-range" data-max="5000" data-min="50000">
+                                <span class="price-range__min">50 000₽</span>
+                                <span class="price-range__max">57 000₽</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="filter-section opened">
+                        <div class="filter-section__header">
+                            <div class="filter-section__title">Дата</div>
+                            <div class="filter-section__icon"></div>
+                        </div>
+                        <div class="filter-section__content">
+                            <div class="date-picker">
+                                <input type="date" name="" id="">
+                                <div class="separator"></div>
+                                <input type="date" name="" id="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="filter-section opened">
+                        <div class="filter-section__header">
+                            <div class="filter-section__title">Кол-во кроватей</div>
+                            <div class="filter-section__icon"></div>
+                        </div>
+                        <div class="filter-section__content">
+                            <ul class="filter-list selected">
+                                <li class="filter-list__item selected">1</li>
+                                <li class="filter-list__item">2</li>
+                                <li class="filter-list__item">3</li>
+                                <li class="filter-list__item">4</li>
+                                <li class="filter-list__item">5</li>
+                                <li class="filter-list__item">6</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="filter-section opened">
+                        <div class="filter-section__header">
+                            <div class="filter-section__title">Удобства</div>
+                            <div class="filter-section__icon"></div>
+                        </div>
+                        <div class="filter-section__content">
+                            <ul class="checkbox-list">
+                                <li class="checkbox-list__item">
+                                    <input class="checkbox" type="checkbox" name="" id="">
+                                    <label for="">Wi Fi</label>
+                                </li>
+                                <li class="checkbox-list__item">
+                                    <input class="checkbox" type="checkbox" name="" id="">
+                                    <label for="">Wi Fi</label>
+                                </li>
+                                <li class="checkbox-list__item">
+                                    <input class="checkbox" type="checkbox" name="" id="">
+                                    <label for="">Wi Fi</label>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </aside>
+                <div class="catalogue-content">
+                    <div class="catalogue-content__header">
+                        <div class="container">
+                            <h1 class="catalogue-content__title">Апартаменты Москва Сити долгосрочно </h1>
+                            <p class="catalogue-content__text">1 504 из 2 345 вариантов</p>
+                        </div>
+                    </div>
+                    <div class="m-catalogue">
+                        <form class="search">
+                            <input class="search__input" placeholder="Поиск" type="text">
+                            <button class="search__btn"></button>
+                        </form>
+                        <button class="button" id="m-filters">Фильтры</button>
+                    </div>
+                    <ul class="apartament-list">
+                        <li class="apartament-list__item">
+                            <div class="apartament-list__preview">
+                                <img class="current" src="img/apartament-preview.jpg" alt="">
+                                <img src="img/apartament-preview.jpg" alt="">
+                                <img src="img/apartament-preview.jpg" alt="">
+                                <img src="img/apartament-preview.jpg" alt="">
+                                <img src="img/apartament-preview.jpg" alt="">
+                            </div>
+                            <div class="preview-paggination">
+                                <div class="preview-paggination__item selected"></div>
+                                <div class="preview-paggination__item"></div>
+                                <div class="preview-paggination__item"></div>
+                                <div class="preview-paggination__item"></div>
+                                <div class="preview-paggination__item"></div>
+                            </div>
+                            <div class="apartament-list__header">
+                                <div>
+                                    <p class="apartament-list__address">1-й Красногвардейский пр-д, 22 стр. 2</p>
+                                    <ul class="metro-list">
+                                        <li class="metro-list__item">
+                                            <img src="img/metro.svg" alt="">
+                                            <span class="metro-list__details">Metro name</span>
+                                        </li>
+                                        <li class="metro-list__item">
+                                            <img src="img/metro.svg" alt="">
+                                            <span class="metro-list__details">Metro name</span>
+                                        </li>
+                                        <li class="metro-list__item">
+                                            <img src="img/metro.svg" alt="">
+                                            <span class="metro-list__details">Metro name</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <button class="apartament-list__favorite-btn"></button>
+                            </div>
+                            <p class="apartament-list__price">250 000₽/месяц</p>
+                            <ul class="apartament-list__tags">
+                                <li class="apartament-list__tag">2 комнаты</li>
+                                <li class="apartament-list__tag">38 этаж</li>
+                                <li class="apartament-list__tag">120 м2</li>
+                            </ul>
+                            <p class="apartament-list__location">NEVA TOWERS</p>
+                        </li>
+                        <li class="apartament-list__item">
+                            <div class="apartament-list__preview">
+                                <img class="current" src="img/apartament-preview.jpg" alt="">
+                                <img src="img/apartament-preview.jpg" alt="">
+                                <img src="img/apartament-preview.jpg" alt="">
+                                <img src="img/apartament-preview.jpg" alt="">
+                                <img src="img/apartament-preview.jpg" alt="">
+                            </div>
+                            <div class="preview-paggination">
+                                <div class="preview-paggination__item selected"></div>
+                                <div class="preview-paggination__item"></div>
+                                <div class="preview-paggination__item"></div>
+                                <div class="preview-paggination__item"></div>
+                                <div class="preview-paggination__item"></div>
+                            </div>
+                            <div class="apartament-list__header">
+                                <div>
+                                    <p class="apartament-list__address">1-й Красногвардейский пр-д, 22 стр. 2</p>
+                                    <ul class="metro-list">
+                                        <li class="metro-list__item">
+                                            <img src="img/metro.svg" alt="">
+                                            <span class="metro-list__details">Metro name</span>
+                                        </li>
+                                        <li class="metro-list__item">
+                                            <img src="img/metro.svg" alt="">
+                                            <span class="metro-list__details">Metro name</span>
+                                        </li>
+                                        <li class="metro-list__item">
+                                            <img src="img/metro.svg" alt="">
+                                            <span class="metro-list__details">Metro name</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <button class="apartament-list__favorite-btn"></button>
+                            </div>
+                            <p class="apartament-list__price">250 000₽/месяц</p>
+                            <ul class="apartament-list__tags">
+                                <li class="apartament-list__tag">2 комнаты</li>
+                                <li class="apartament-list__tag">38 этаж</li>
+                                <li class="apartament-list__tag">120 м2</li>
+                            </ul>
+                            <p class="apartament-list__location">NEVA TOWERS</p>
+                        </li>
+                        <li class="apartament-list__item">
+                            <div class="apartament-list__preview">
+                                <img class="current" src="img/apartament-preview.jpg" alt="">
+                                <img src="img/apartament-preview.jpg" alt="">
+                                <img src="img/apartament-preview.jpg" alt="">
+                                <img src="img/apartament-preview.jpg" alt="">
+                                <img src="img/apartament-preview.jpg" alt="">
+                            </div>
+                            <div class="preview-paggination">
+                                <div class="preview-paggination__item selected"></div>
+                                <div class="preview-paggination__item"></div>
+                                <div class="preview-paggination__item"></div>
+                                <div class="preview-paggination__item"></div>
+                                <div class="preview-paggination__item"></div>
+                            </div>
+                            <div class="apartament-list__header">
+                                <div>
+                                    <p class="apartament-list__address">1-й Красногвардейский пр-д, 22 стр. 2</p>
+                                    <ul class="metro-list">
+                                        <li class="metro-list__item">
+                                            <img src="img/metro.svg" alt="">
+                                            <span class="metro-list__details">Metro name</span>
+                                        </li>
+                                        <li class="metro-list__item">
+                                            <img src="img/metro.svg" alt="">
+                                            <span class="metro-list__details">Metro name</span>
+                                        </li>
+                                        <li class="metro-list__item">
+                                            <img src="img/metro.svg" alt="">
+                                            <span class="metro-list__details">Metro name</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <button class="apartament-list__favorite-btn"></button>
+                            </div>
+                            <p class="apartament-list__price">250 000₽/месяц</p>
+                            <ul class="apartament-list__tags">
+                                <li class="apartament-list__tag">2 комнаты</li>
+                                <li class="apartament-list__tag">38 этаж</li>
+                                <li class="apartament-list__tag">120 м2</li>
+                            </ul>
+                            <p class="apartament-list__location">NEVA TOWERS</p>
+                        </li>
+                        <li class="apartament-list__item">
+                            <div class="apartament-list__preview">
+                                <img class="current" src="img/apartament-preview.jpg" alt="">
+                                <img src="img/apartament-preview.jpg" alt="">
+                                <img src="img/apartament-preview.jpg" alt="">
+                                <img src="img/apartament-preview.jpg" alt="">
+                                <img src="img/apartament-preview.jpg" alt="">
+                            </div>
+                            <div class="preview-paggination">
+                                <div class="preview-paggination__item selected"></div>
+                                <div class="preview-paggination__item"></div>
+                                <div class="preview-paggination__item"></div>
+                                <div class="preview-paggination__item"></div>
+                                <div class="preview-paggination__item"></div>
+                            </div>
+                            <div class="apartament-list__header">
+                                <div>
+                                    <p class="apartament-list__address">1-й Красногвардейский пр-д, 22 стр. 2</p>
+                                    <ul class="metro-list">
+                                        <li class="metro-list__item">
+                                            <img src="img/metro.svg" alt="">
+                                            <span class="metro-list__details">Metro name</span>
+                                        </li>
+                                        <li class="metro-list__item">
+                                            <img src="img/metro.svg" alt="">
+                                            <span class="metro-list__details">Metro name</span>
+                                        </li>
+                                        <li class="metro-list__item">
+                                            <img src="img/metro.svg" alt="">
+                                            <span class="metro-list__details">Metro name</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <button class="apartament-list__favorite-btn"></button>
+                            </div>
+                            <p class="apartament-list__price">250 000₽/месяц</p>
+                            <ul class="apartament-list__tags">
+                                <li class="apartament-list__tag">2 комнаты</li>
+                                <li class="apartament-list__tag">38 этаж</li>
+                                <li class="apartament-list__tag">120 м2</li>
+                            </ul>
+                            <p class="apartament-list__location">NEVA TOWERS</p>
+                        </li>
+                        <li class="apartament-list__item">
+                            <div class="apartament-list__preview">
+                                <img class="current" src="img/apartament-preview.jpg" alt="">
+                                <img src="img/apartament-preview.jpg" alt="">
+                                <img src="img/apartament-preview.jpg" alt="">
+                                <img src="img/apartament-preview.jpg" alt="">
+                                <img src="img/apartament-preview.jpg" alt="">
+                            </div>
+                            <div class="preview-paggination">
+                                <div class="preview-paggination__item selected"></div>
+                                <div class="preview-paggination__item"></div>
+                                <div class="preview-paggination__item"></div>
+                                <div class="preview-paggination__item"></div>
+                                <div class="preview-paggination__item"></div>
+                            </div>
+                            <div class="apartament-list__header">
+                                <div>
+                                    <p class="apartament-list__address">1-й Красногвардейский пр-д, 22 стр. 2</p>
+                                    <ul class="metro-list">
+                                        <li class="metro-list__item">
+                                            <img src="img/metro.svg" alt="">
+                                            <span class="metro-list__details">Metro name</span>
+                                        </li>
+                                        <li class="metro-list__item">
+                                            <img src="img/metro.svg" alt="">
+                                            <span class="metro-list__details">Metro name</span>
+                                        </li>
+                                        <li class="metro-list__item">
+                                            <img src="img/metro.svg" alt="">
+                                            <span class="metro-list__details">Metro name</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <button class="apartament-list__favorite-btn"></button>
+                            </div>
+                            <p class="apartament-list__price">250 000₽/месяц</p>
+                            <ul class="apartament-list__tags">
+                                <li class="apartament-list__tag">2 комнаты</li>
+                                <li class="apartament-list__tag">38 этаж</li>
+                                <li class="apartament-list__tag">120 м2</li>
+                            </ul>
+                            <p class="apartament-list__location">NEVA TOWERS</p>
+                        </li>
+                        <li class="apartament-list__item">
+                            <div class="apartament-list__preview">
+                                <img class="current" src="img/apartament-preview.jpg" alt="">
+                                <img src="img/apartament-preview.jpg" alt="">
+                                <img src="img/apartament-preview.jpg" alt="">
+                                <img src="img/apartament-preview.jpg" alt="">
+                                <img src="img/apartament-preview.jpg" alt="">
+                            </div>
+                            <div class="preview-paggination">
+                                <div class="preview-paggination__item selected"></div>
+                                <div class="preview-paggination__item"></div>
+                                <div class="preview-paggination__item"></div>
+                                <div class="preview-paggination__item"></div>
+                                <div class="preview-paggination__item"></div>
+                            </div>
+                            <div class="apartament-list__header">
+                                <div>
+                                    <p class="apartament-list__address">1-й Красногвардейский пр-д, 22 стр. 2</p>
+                                    <ul class="metro-list">
+                                        <li class="metro-list__item">
+                                            <img src="img/metro.svg" alt="">
+                                            <span class="metro-list__details">Metro name</span>
+                                        </li>
+                                        <li class="metro-list__item">
+                                            <img src="img/metro.svg" alt="">
+                                            <span class="metro-list__details">Metro name</span>
+                                        </li>
+                                        <li class="metro-list__item">
+                                            <img src="img/metro.svg" alt="">
+                                            <span class="metro-list__details">Metro name</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <button class="apartament-list__favorite-btn"></button>
+                            </div>
+                            <p class="apartament-list__price">250 000₽/месяц</p>
+                            <ul class="apartament-list__tags">
+                                <li class="apartament-list__tag">2 комнаты</li>
+                                <li class="apartament-list__tag">38 этаж</li>
+                                <li class="apartament-list__tag">120 м2</li>
+                            </ul>
+                            <p class="apartament-list__location">NEVA TOWERS</p>
+                        </li>
+                    </ul>
+                    <div class="catalogue-banner" style="background-image: url(img/catalogue-header.jpg);">
+                        <a class="container" href="">
+                            <div class="catalogue-banner__description">
+                                <div class="catalogue-banner__title">Москва сити тест-драйв</div>
+                                <p class="catalogue-banner__text">Попробуйте пожить в 5 разных апартаментах, чтобы понять что подходит именно вам.</p>
+                            </div>
+                            <button class="learn-more">Подробнее</button>
+                        </a>
+                    </div>
+                    <ul class="apartament-list">
+                        <li class="apartament-list__item">
+                            <div class="apartament-list__preview">
+                                <img class="current" src="img/apartament-preview.jpg" alt="">
+                                <img src="img/apartament-preview.jpg" alt="">
+                                <img src="img/apartament-preview.jpg" alt="">
+                                <img src="img/apartament-preview.jpg" alt="">
+                                <img src="img/apartament-preview.jpg" alt="">
+                            </div>
+                            <div class="preview-paggination">
+                                <div class="preview-paggination__item selected"></div>
+                                <div class="preview-paggination__item"></div>
+                                <div class="preview-paggination__item"></div>
+                                <div class="preview-paggination__item"></div>
+                                <div class="preview-paggination__item"></div>
+                            </div>
+                            <div class="apartament-list__header">
+                                <div>
+                                    <p class="apartament-list__address">1-й Красногвардейский пр-д, 22 стр. 2</p>
+                                    <ul class="metro-list">
+                                        <li class="metro-list__item">
+                                            <img src="img/metro.svg" alt="">
+                                            <span class="metro-list__details">Metro name</span>
+                                        </li>
+                                        <li class="metro-list__item">
+                                            <img src="img/metro.svg" alt="">
+                                            <span class="metro-list__details">Metro name</span>
+                                        </li>
+                                        <li class="metro-list__item">
+                                            <img src="img/metro.svg" alt="">
+                                            <span class="metro-list__details">Metro name</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <button class="apartament-list__favorite-btn"></button>
+                            </div>
+                            <p class="apartament-list__price">250 000₽/месяц</p>
+                            <ul class="apartament-list__tags">
+                                <li class="apartament-list__tag">2 комнаты</li>
+                                <li class="apartament-list__tag">38 этаж</li>
+                                <li class="apartament-list__tag">120 м2</li>
+                            </ul>
+                            <p class="apartament-list__location">NEVA TOWERS</p>
+                        </li>
+                        <li class="apartament-list__item">
+                            <div class="apartament-list__preview">
+                                <img class="current" src="img/apartament-preview.jpg" alt="">
+                                <img src="img/apartament-preview.jpg" alt="">
+                                <img src="img/apartament-preview.jpg" alt="">
+                                <img src="img/apartament-preview.jpg" alt="">
+                                <img src="img/apartament-preview.jpg" alt="">
+                            </div>
+                            <div class="preview-paggination">
+                                <div class="preview-paggination__item selected"></div>
+                                <div class="preview-paggination__item"></div>
+                                <div class="preview-paggination__item"></div>
+                                <div class="preview-paggination__item"></div>
+                                <div class="preview-paggination__item"></div>
+                            </div>
+                            <div class="apartament-list__header">
+                                <div>
+                                    <p class="apartament-list__address">1-й Красногвардейский пр-д, 22 стр. 2</p>
+                                    <ul class="metro-list">
+                                        <li class="metro-list__item">
+                                            <img src="img/metro.svg" alt="">
+                                            <span class="metro-list__details">Metro name</span>
+                                        </li>
+                                        <li class="metro-list__item">
+                                            <img src="img/metro.svg" alt="">
+                                            <span class="metro-list__details">Metro name</span>
+                                        </li>
+                                        <li class="metro-list__item">
+                                            <img src="img/metro.svg" alt="">
+                                            <span class="metro-list__details">Metro name</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <button class="apartament-list__favorite-btn"></button>
+                            </div>
+                            <p class="apartament-list__price">250 000₽/месяц</p>
+                            <ul class="apartament-list__tags">
+                                <li class="apartament-list__tag">2 комнаты</li>
+                                <li class="apartament-list__tag">38 этаж</li>
+                                <li class="apartament-list__tag">120 м2</li>
+                            </ul>
+                            <p class="apartament-list__location">NEVA TOWERS</p>
+                        </li>
+                        <li class="apartament-list__item">
+                            <div class="apartament-list__preview">
+                                <img class="current" src="img/apartament-preview.jpg" alt="">
+                                <img src="img/apartament-preview.jpg" alt="">
+                                <img src="img/apartament-preview.jpg" alt="">
+                                <img src="img/apartament-preview.jpg" alt="">
+                                <img src="img/apartament-preview.jpg" alt="">
+                            </div>
+                            <div class="preview-paggination">
+                                <div class="preview-paggination__item selected"></div>
+                                <div class="preview-paggination__item"></div>
+                                <div class="preview-paggination__item"></div>
+                                <div class="preview-paggination__item"></div>
+                                <div class="preview-paggination__item"></div>
+                            </div>
+                            <div class="apartament-list__header">
+                                <div>
+                                    <p class="apartament-list__address">1-й Красногвардейский пр-д, 22 стр. 2</p>
+                                    <ul class="metro-list">
+                                        <li class="metro-list__item">
+                                            <img src="img/metro.svg" alt="">
+                                            <span class="metro-list__details">Metro name</span>
+                                        </li>
+                                        <li class="metro-list__item">
+                                            <img src="img/metro.svg" alt="">
+                                            <span class="metro-list__details">Metro name</span>
+                                        </li>
+                                        <li class="metro-list__item">
+                                            <img src="img/metro.svg" alt="">
+                                            <span class="metro-list__details">Metro name</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <button class="apartament-list__favorite-btn"></button>
+                            </div>
+                            <p class="apartament-list__price">250 000₽/месяц</p>
+                            <ul class="apartament-list__tags">
+                                <li class="apartament-list__tag">2 комнаты</li>
+                                <li class="apartament-list__tag">38 этаж</li>
+                                <li class="apartament-list__tag">120 м2</li>
+                            </ul>
+                            <p class="apartament-list__location">NEVA TOWERS</p>
+                        </li>
+                        <li class="apartament-list__item">
+                            <div class="apartament-list__preview">
+                                <img class="current" src="img/apartament-preview.jpg" alt="">
+                                <img src="img/apartament-preview.jpg" alt="">
+                                <img src="img/apartament-preview.jpg" alt="">
+                                <img src="img/apartament-preview.jpg" alt="">
+                                <img src="img/apartament-preview.jpg" alt="">
+                            </div>
+                            <div class="preview-paggination">
+                                <div class="preview-paggination__item selected"></div>
+                                <div class="preview-paggination__item"></div>
+                                <div class="preview-paggination__item"></div>
+                                <div class="preview-paggination__item"></div>
+                                <div class="preview-paggination__item"></div>
+                            </div>
+                            <div class="apartament-list__header">
+                                <div>
+                                    <p class="apartament-list__address">1-й Красногвардейский пр-д, 22 стр. 2</p>
+                                    <ul class="metro-list">
+                                        <li class="metro-list__item">
+                                            <img src="img/metro.svg" alt="">
+                                            <span class="metro-list__details">Metro name</span>
+                                        </li>
+                                        <li class="metro-list__item">
+                                            <img src="img/metro.svg" alt="">
+                                            <span class="metro-list__details">Metro name</span>
+                                        </li>
+                                        <li class="metro-list__item">
+                                            <img src="img/metro.svg" alt="">
+                                            <span class="metro-list__details">Metro name</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <button class="apartament-list__favorite-btn"></button>
+                            </div>
+                            <p class="apartament-list__price">250 000₽/месяц</p>
+                            <ul class="apartament-list__tags">
+                                <li class="apartament-list__tag">2 комнаты</li>
+                                <li class="apartament-list__tag">38 этаж</li>
+                                <li class="apartament-list__tag">120 м2</li>
+                            </ul>
+                            <p class="apartament-list__location">NEVA TOWERS</p>
+                        </li>
+                        <li class="apartament-list__item">
+                            <div class="apartament-list__preview">
+                                <img class="current" src="img/apartament-preview.jpg" alt="">
+                                <img src="img/apartament-preview.jpg" alt="">
+                                <img src="img/apartament-preview.jpg" alt="">
+                                <img src="img/apartament-preview.jpg" alt="">
+                                <img src="img/apartament-preview.jpg" alt="">
+                            </div>
+                            <div class="preview-paggination">
+                                <div class="preview-paggination__item selected"></div>
+                                <div class="preview-paggination__item"></div>
+                                <div class="preview-paggination__item"></div>
+                                <div class="preview-paggination__item"></div>
+                                <div class="preview-paggination__item"></div>
+                            </div>
+                            <div class="apartament-list__header">
+                                <div>
+                                    <p class="apartament-list__address">1-й Красногвардейский пр-д, 22 стр. 2</p>
+                                    <ul class="metro-list">
+                                        <li class="metro-list__item">
+                                            <img src="img/metro.svg" alt="">
+                                            <span class="metro-list__details">Metro name</span>
+                                        </li>
+                                        <li class="metro-list__item">
+                                            <img src="img/metro.svg" alt="">
+                                            <span class="metro-list__details">Metro name</span>
+                                        </li>
+                                        <li class="metro-list__item">
+                                            <img src="img/metro.svg" alt="">
+                                            <span class="metro-list__details">Metro name</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <button class="apartament-list__favorite-btn"></button>
+                            </div>
+                            <p class="apartament-list__price">250 000₽/месяц</p>
+                            <ul class="apartament-list__tags">
+                                <li class="apartament-list__tag">2 комнаты</li>
+                                <li class="apartament-list__tag">38 этаж</li>
+                                <li class="apartament-list__tag">120 м2</li>
+                            </ul>
+                            <p class="apartament-list__location">NEVA TOWERS</p>
+                        </li>
+                        <li class="apartament-list__item">
+                            <div class="apartament-list__preview">
+                                <img class="current" src="img/apartament-preview.jpg" alt="">
+                                <img src="img/apartament-preview.jpg" alt="">
+                                <img src="img/apartament-preview.jpg" alt="">
+                                <img src="img/apartament-preview.jpg" alt="">
+                                <img src="img/apartament-preview.jpg" alt="">
+                            </div>
+                            <div class="preview-paggination">
+                                <div class="preview-paggination__item selected"></div>
+                                <div class="preview-paggination__item"></div>
+                                <div class="preview-paggination__item"></div>
+                                <div class="preview-paggination__item"></div>
+                                <div class="preview-paggination__item"></div>
+                            </div>
+                            <div class="apartament-list__header">
+                                <div>
+                                    <p class="apartament-list__address">1-й Красногвардейский пр-д, 22 стр. 2</p>
+                                    <ul class="metro-list">
+                                        <li class="metro-list__item">
+                                            <img src="img/metro.svg" alt="">
+                                            <span class="metro-list__details">Metro name</span>
+                                        </li>
+                                        <li class="metro-list__item">
+                                            <img src="img/metro.svg" alt="">
+                                            <span class="metro-list__details">Metro name</span>
+                                        </li>
+                                        <li class="metro-list__item">
+                                            <img src="img/metro.svg" alt="">
+                                            <span class="metro-list__details">Metro name</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <button class="apartament-list__favorite-btn"></button>
+                            </div>
+                            <p class="apartament-list__price">250 000₽/месяц</p>
+                            <ul class="apartament-list__tags">
+                                <li class="apartament-list__tag">2 комнаты</li>
+                                <li class="apartament-list__tag">38 этаж</li>
+                                <li class="apartament-list__tag">120 м2</li>
+                            </ul>
+                            <p class="apartament-list__location">NEVA TOWERS</p>
+                        </li>
+                    </ul>
+                    <div class="catalogue-paggination">
+                        <a class="catalogue-paggination__prev" href="">
+                            <img src="img/arrow-left.svg" alt="">
+                        </a>
+                        <ul class="paggination-list">
+                            <li class="paggination-list__item">1</li>
+                            <li class="paggination-list__item selected">2</li>
+                            <li class="paggination-list__item">3</li>
+                            <li class="paggination-list__item">4</li>
+                            <li class="paggination-list__item">...</li>
+                            <li class="paggination-list__item">15</li>
+                        </ul>
+                        <a class="catalogue-paggination__next" href="">
+                            <img src="img/arrow-left.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__left">
+                <div class="footer__title">Flat one</div>
+                <nav class="footer-nav">
+                    <a class="footer-nav__item" href="">Раздел</a>
+                    <a class="footer-nav__item" href="">Раздел</a>
+                    <a class="footer-nav__item" href="">Раздел</a>
+                    <a class="footer-nav__item" href="">Раздел</a>
+                </nav>
+                <div class="footer__copyright">Copyright © 2023 Dossles design | All Rights Reserved</div>
+            </div>
+            <div class="footer__right">
+                <form class="footer-form" action="">
+                    <p class="footer-form__text">Оставте заявку и наш специалист ответит на интересующие вас вопросы</p>
+                    <input class="footer-form__input" placeholder="Как к вам обращаться" type="text">
+                    <input class="footer-form__input" placeholder="+7 000 000 00 00" type="tel">
+                    <input class="footer-form__input" placeholder="Введите интересующий вас вопрос" type="text">
+                    <button class="footer-form__button">Отправить</button>
+                    <p class="footer-form__disclaimer">Отправляя заявку вы принимаете пользовательское соглашение. <a href="">Узнать больше</a></p>
+                </form>
+            </div>
+        </div>
+    </footer>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

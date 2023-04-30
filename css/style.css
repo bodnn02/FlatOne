@@ -480,6 +480,8 @@ body {
     border: none;
     background-color: transparent;
     background-image: url(../img/search.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 .articles-list {
     width: 100%;

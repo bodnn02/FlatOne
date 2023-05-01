@@ -2670,6 +2670,7 @@ body {
         padding: 27px 10px;
 
         height: calc(100vh - 54px);
+        min-width: unset;
         width: calc(100vw - 20px);
 
         overflow-y: auto;
@@ -2763,6 +2764,7 @@ body {
     .staff-list {
         grid-template-columns: repeat(2, 1fr);
     }
+
 }
 @media (max-width: 900px) {
     .articles-list {

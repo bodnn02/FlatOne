@@ -230,3 +230,11 @@ $(window).scroll(function() {
       $('.header').removeClass('scrolled');
   }
 });
+
+$(window).scroll(function() {
+  if ($(this).scrollTop() > 500) {
+      $('.product-sidebar').addClass('scrolled');
+  } else {
+      $('.product-sidebar').removeClass('scrolled');
+  }
+});

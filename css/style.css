@@ -10,7 +10,26 @@ body {
 }
 
 /* Header *Start* */
+.header.scrolled {
+    position: fixed;
+    top: 0;
+    left: 0;
 
+    width: 100%;
+
+    background-color:  #FAFAFD;
+
+    animation: scrolled linear .3s;
+    z-index: 4;
+}
+@keyframes scrolled {
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
 .header > .container {
     margin: 0 10%;
     padding: 27px 0;
@@ -2663,7 +2682,7 @@ body {
     .catalogue-sidebar {
         display: none;
 
-        position: absolute;
+        position: fixed;
         top: 0;
         left: 0;
 

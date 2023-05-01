@@ -222,3 +222,11 @@ $(".form-overlay__back-btn").on("click", function (e) {
 $(".wishlist-btn").on("click", function (e) {
   $(this).toggleClass("filled")
 });
+
+$(window).scroll(function() {
+  if ($(this).scrollTop() > 100) {
+      $('.header').addClass('scrolled');
+  } else {
+      $('.header').removeClass('scrolled');
+  }
+});

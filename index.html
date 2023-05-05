@@ -84,35 +84,14 @@
         <section class="stories-section">
             <div class="container">
                 <ul class="stories-list">
-                    <li class="stories-list__item checked">
+                    <li class="stories-list__item" data-story="1">
                         <div class="stories-list__wrapper">
                             <div class="stories-list__border"></div>
                             <img class="stories-list__preview" src="img/apartament-preview.jpg" alt="">
                         </div>
                         <p class="stories-list__title">История</p>
                     </li>
-                    <li class="stories-list__item checked">
-                        <div class="stories-list__wrapper">
-                            <div class="stories-list__border"></div>
-                            <img class="stories-list__preview" src="img/apartament-preview.jpg" alt="">
-                        </div>
-                        <p class="stories-list__title">История</p>
-                    </li>
-                    <li class="stories-list__item">
-                        <div class="stories-list__wrapper">
-                            <div class="stories-list__border"></div>
-                            <img class="stories-list__preview" src="img/apartament-preview.jpg" alt="">
-                        </div>
-                        <p class="stories-list__title">История</p>
-                    </li>
-                    <li class="stories-list__item">
-                        <div class="stories-list__wrapper">
-                            <div class="stories-list__border"></div>
-                            <img class="stories-list__preview" src="img/apartament-preview.jpg" alt="">
-                        </div>
-                        <p class="stories-list__title">История</p>
-                    </li>
-                    <li class="stories-list__item">
+                    <li class="stories-list__item" data-story="2">
                         <div class="stories-list__wrapper">
                             <div class="stories-list__border"></div>
                             <img class="stories-list__preview" src="img/apartament-preview.jpg" alt="">
@@ -582,12 +561,14 @@
             <div class="container">
                 <div class="stories-overlay">
                     <div class="container">
-                        <button class="stories-overlay__prev"></button>
-                        <div class="story">
+                        <button class="stories-overlay__prev">
+                            <img src="img/arrow-left.svg" alt="">
+                        </button>
+                        <div class="story" data-story="1">
                             <div class="story-header">
                                 <ul class="story-paggination">
-                                    <li class="story-paggination__item selected">
-                                        <div class="story-paggination__progress" style="width: 20%"></div>
+                                    <li class="story-paggination__item current">
+                                        <div class="story-paggination__progress" style="width: 0%"></div>
                                     </li>
                                     <li class="story-paggination__item">
                                         <div class="story-paggination__progress" style="width: 0%"></div>
@@ -596,23 +577,155 @@
                                         <div class="story-paggination__progress" style="width: 0%"></div>
                                     </li>
                                 </ul>
-                                <button class="stories-overlay__close"></button>
+                                <div class="story-header__wrapper">
+                                    <div class="story-info">
+                                        <img class="story-info__icon" src="img/apartament-preview.jpg" alt="">
+                                        <div class="story-info__title">Имя</div>
+                                        <span class="story-info__date">23 ч.</span>
+                                    </div>
+                                    <div class="story-actions">
+                                        <button class="play-btn"></button>
+                                        <button class="mute-btn"></button>
+                                    </div>
+                                </div>
                             </div>
                             <div class="story-content">
                                 <ul class="story-content__list">
                                     <li class="story-content__item current">
-                                        <img src="img/product-image.jpg" alt="">
+                                        <video src="img/story_video.mp4"></video>
                                     </li>
                                     <li class="story-content__item">
-                                        <img src="img/product-image.jpg" alt="">
+                                        <video src="img/story_video_2.mp4"></video>
                                     </li>
                                     <li class="story-content__item">
-                                        <img src="img/product-image.jpg" alt="">
+                                        <video src="img/story_video.mp4"></video>
                                     </li>
                                 </ul>
+                                <div class="story-center">
+                                    <a class="story-geolocation hidden" href="">Moscow</a>
+                                    <a class="story-link" href="">Link</a>
+                                    <div class="story-question hidden">
+                                        <div class="story-question__img">
+                                            <img src="img/apartament-preview.jpg" alt="">
+                                        </div>
+                                        <div class="story-question__title">Ask me a questing</div>
+                                        <input placeholder="Type something..." type="text">
+                                    </div>
+                                    <div class="story-quiz hidden">
+                                        <div class="story-quiz__header">
+                                            <div class="story-quiz__title">Question title</div>
+                                        </div>
+                                        <div class="story-quiz__content">
+                                            <ul class="quiz-list">
+                                                <li class="quiz-list__item">
+                                                    <div class="quiz-list__variant">A</div>
+                                                    <div class="quiz-list__text">Quiz variant</div>
+                                                </li>
+                                                <li class="quiz-list__item">
+                                                    <div class="quiz-list__variant">B</div>
+                                                    <div class="quiz-list__text">Quiz variant</div>
+                                                </li>
+                                                <li class="quiz-list__item selected">
+                                                    <div class="quiz-list__variant">C</div>
+                                                    <div class="quiz-list__text">Quiz variant</div>
+                                                </li>
+                                                <li class="quiz-list__item">
+                                                    <div class="quiz-list__variant">D</div>
+                                                    <div class="quiz-list__text">Quiz variant</div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="story-footer">
+                                <input placeholder="Input text..." type="text">
                             </div>
                         </div>
-                        <button class="stories-overlay__next"></button>
+                        <div class="story" data-story="2">
+                            <div class="story-header">
+                                <ul class="story-paggination">
+                                    <li class="story-paggination__item current">
+                                        <div class="story-paggination__progress" style="width: 0%"></div>
+                                    </li>
+                                    <li class="story-paggination__item">
+                                        <div class="story-paggination__progress" style="width: 0%"></div>
+                                    </li>
+                                    <li class="story-paggination__item">
+                                        <div class="story-paggination__progress" style="width: 0%"></div>
+                                    </li>
+                                </ul>
+                                <div class="story-header__wrapper">
+                                    <div class="story-info">
+                                        <img class="story-info__icon" src="img/apartament-preview.jpg" alt="">
+                                        <div class="story-info__title">Имя</div>
+                                        <span class="story-info__date">23 ч.</span>
+                                    </div>
+                                    <div class="story-actions">
+                                        <button class="play-btn"></button>
+                                        <button class="mute-btn"></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="story-content">
+                                <ul class="story-content__list">
+                                    <li class="story-content__item">
+                                        <video src="img/story_video_2.mp4"></video>
+                                    </li>
+                                    <li class="story-content__item current">
+                                        <video src="img/story_video.mp4"></video>
+                                    </li>
+                                    <li class="story-content__item">
+                                        <video src="img/story_video.mp4"></video>
+                                    </li>
+                                </ul>
+                                <div class="story-center">
+                                    <a class="story-geolocation hidden" href="">Moscow</a>
+                                    <a class="story-link" href="">Link</a>
+                                    <div class="story-question hidden">
+                                        <div class="story-question__img">
+                                            <img src="img/apartament-preview.jpg" alt="">
+                                        </div>
+                                        <div class="story-question__title">Ask me a questing</div>
+                                        <input placeholder="Type something..." type="text">
+                                    </div>
+                                    <div class="story-quiz hidden">
+                                        <div class="story-quiz__header">
+                                            <div class="story-quiz__title">Question title</div>
+                                        </div>
+                                        <div class="story-quiz__content">
+                                            <ul class="quiz-list">
+                                                <li class="quiz-list__item">
+                                                    <div class="quiz-list__variant">A</div>
+                                                    <div class="quiz-list__text">Quiz variant</div>
+                                                </li>
+                                                <li class="quiz-list__item">
+                                                    <div class="quiz-list__variant">B</div>
+                                                    <div class="quiz-list__text">Quiz variant</div>
+                                                </li>
+                                                <li class="quiz-list__item selected">
+                                                    <div class="quiz-list__variant">C</div>
+                                                    <div class="quiz-list__text">Quiz variant</div>
+                                                </li>
+                                                <li class="quiz-list__item">
+                                                    <div class="quiz-list__variant">D</div>
+                                                    <div class="quiz-list__text">Quiz variant</div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="story-footer">
+                                <input placeholder="Input text..." type="text">
+                            </div>
+                        </div>
+                        <button class="stories-overlay__next">
+                            <img src="img/arrow-left.svg" alt="">
+                        </button>
+                        <button class="stories-overlay__close">
+                            <svg aria-label="Закрыть" class="x1lliihq x1n2onr6" color="rgb(255, 255, 255)" fill="rgb(255, 255, 255)" height="24" role="img" viewBox="0 0 24 24" width="24"><title>Закрыть</title><polyline fill="none" points="20.643 3.357 12 12 3.353 20.647" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"></polyline><line fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" x1="20.649" x2="3.354" y1="20.649" y2="3.354"></line></svg>
+                        </button>
                     </div>
                 </div>
             </div>
@@ -644,6 +757,7 @@
     </footer>
     <script src="js/jquery.min.js"></script>
     <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.touchSwipe.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>

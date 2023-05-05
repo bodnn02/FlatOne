@@ -406,3 +406,9 @@ $(".story").swipe( {
   threshold:100,
   allowPageScroll:"vertical"
 });
+
+$(".quiz-list__item").on("click", function(e) {
+  $(this).parent().children(".quiz-list__item").removeClass("selected")
+
+  $(this).addClass("selected")
+})

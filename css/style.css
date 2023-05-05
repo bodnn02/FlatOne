@@ -3490,6 +3490,9 @@ body {
         top: 30px;
         right: 15px;
     }
+    .story-quiz {
+        width: 80%;
+    }
 }
 /* Adaptive styles *Start* */
 

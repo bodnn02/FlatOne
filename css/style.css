@@ -3097,7 +3097,7 @@ body {
     }
     .section-list {
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: 334px;
+        grid-template-rows: 334px 334px;
     }
     .lead-list {
         grid-template-columns: 1fr;
